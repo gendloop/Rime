@@ -1,9 +1,9 @@
-# RepoName
+# Rime
 
 ## Install
 
 ```powershell
-scoop install gendloopBucket/RepoName
+scoop install gendloopBucket/Rime
 ```
 
 ## Notes
