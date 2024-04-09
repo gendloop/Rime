@@ -6,6 +6,10 @@
 scoop install gendloopBucket/Rime
 ```
 
+## Configuration
+
+[配置](config/README.md) 
+
 ## Notes
 
 1. 下载的只是安装包

@@ -1,0 +1,70 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.15.0.0
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Fri Oct 27 21:12:58 2023"
+  rime_version: 1.8.5
+patch:
+  schema_list:
+    - {schema: wubi86}
+    - {schema: wubi_pinyin}
+    - {schema: wubi_trad}
+    - {schema: luna_pinyin_simp}
+    - {schema: easy_en}
+  
+  "menu/page_size": 5
+  "switcher/hotkeys":
+    -  Control+Shift+space
+
+  
+
+  "punctuator/import_preset": symbols
+  "recognizer/patterns/punct": "^/([A-Z|a-z]*|[0-9]|10)$"
+
+  "translator/enable_sentence": true
+  "translator/enable_user_dict": true
+
+  key_binder:
+    bindings:
+      - accept: Control+space
+        toggle: ascii_mode
+        when: always
+      - accept: Control+bracketleft
+        send: Page_Up
+        when: paging
+      - accept: comma
+        send: Page_Up
+        when: paging
+      - accept: Control+bracketright
+        send: Page_Down
+        when: has_menu
+      - accept: period
+        send: Page_Down
+        when: has_menu
+      - accept: bracketleft
+        send: Page_Up
+        when: paging
+      - accept: bracketright
+        send: Page_Down
+        when: has_menu
+      - accept: semicolon
+        send: 2
+        when: has_menu
+      - accept: apostrophe
+        send: 3
+        when: has_menu
+      - accept: space
+        send: space
+        when: has_menu
+  
+  editor:
+    bindings:
+      "Return": commit_raw_input
+
+  ascii_composer/good_old_caps_lock: true
+  ascii_composer/switch_key:
+    Caps_Lock: noop
+    Shift_L: commit_code
+    Shift_R: inline_ascii
+    Control_L: clear
+    Control_R: commit_text

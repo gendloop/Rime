@@ -1,0 +1,38 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.15.0.0
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Sat Oct 28 02:48:16 2023"
+  rime_version: 1.8.5
+patch:
+  "preset_color_schemes/gendloop_style":
+    author: "gendloop <gendloop@163.com>"
+    back_color: 0xffffff
+    border_color: 0xdedede
+    candidate_text_color: 0x000000
+    comment_text_color: 0x000000
+    hilited_back_color: 0xffffff
+    hilited_candidate_back_color: 0x230dc3
+    hilited_candidate_text_color: 0xffffff
+    hilited_comment_text_color: 0xffffff
+    hilited_text_color: 0x230dc3
+    label_color: 0x000000
+    name: gendloop_style
+    text_color: 0x000000
+  "style/color_scheme": gendloop_style
+  "style/comment_font_face": Consolas
+  "style/comment_font_point": 12
+  "style/display_tray_icon": false
+  "style/font_face": Consolas
+  "style/font_point": 12
+  "style/fullscreen": false
+  "style/horizontal": false
+  "style/inline_preedit": false
+  "style/label_font_face": Consolas
+  "style/label_font_point": 12
+  "style/label_format": "%s."
+  "style/mark_text": ""
+  "style/vertical_auto_reverse": false
+  "style/vertical_text": false
+  "style/vertical_text_left_to_right": false
+  "style/vertical_text_with_wrap": false
