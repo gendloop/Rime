@@ -45,15 +45,18 @@ engine:
     - punct_translator
     - reverse_lookup_translator
     - table_translator
+    - lua_translator@date_translator
+    - lua_translator@time_translator
+    - lua_translator@gendloop_translator
 
 speller:
   delimiter: " ;'"
-  max_code_length: 4
+  max_code_length: 10
 
 translator:
   dictionary: wubi86
   enable_charset_filter: true
-  enable_sentence: true
+  enable_sentence: false
   enable_encoder: true
   encode_commit_history: true
   max_phrase_length: 4
