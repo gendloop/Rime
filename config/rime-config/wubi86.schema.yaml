@@ -48,6 +48,8 @@ engine:
     - lua_translator@date_translator
     - lua_translator@time_translator
     - lua_translator@gendloop_translator
+  filters:
+    - lua_filter@single_char_first_filter
 
 speller:
   delimiter: " ;'"
