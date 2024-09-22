@@ -6,7 +6,7 @@
 scoop install gendloopBucket/Rime
 ```
 
-## Configuration
+## Config
 
 [配置](config/README.md) 
 
