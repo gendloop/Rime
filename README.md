@@ -12,7 +12,7 @@ scoop install gendloopBucket/Rime
   * 中英文下均使用英文标点
   * 主题色为红色
   * 单字优先
-  * `Ctrl + Shitf + Space` 切换输入法 (已包含的输入法有*五笔86*, *明月拼音*, *五笔拼音*)
+  * `Ctrl + Shift + Space` 切换输入法 (已包含的输入法有*五笔86*, *明月拼音*, *五笔拼音*)
   * `Ctrl + Space` 切换中英文; `[` `]` 前后翻页
 * 效果
 
