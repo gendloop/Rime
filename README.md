@@ -13,7 +13,7 @@ scoop install gendloopBucket/Rime
   * 主题色为红色
   * 单字优先
   * `Ctrl + Shitf + Space` 切换输入法 (已包含的输入法有*五笔86*, *明月拼音*, *五笔拼音*)
-  * `Ctrl + Space` 切换中英文
+  * `Ctrl + Space` 切换中英文; `[` `]` 前后翻页
 * 效果
 
 	<img src="res/date.png" style="width:20%;"> <img src="res/time.png" style="width:20%;"> <img src="res/gendloop.png" style="width:20%;"> 
